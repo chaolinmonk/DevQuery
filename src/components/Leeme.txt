@@ -1,0 +1,9 @@
+El orden de los componentes será este:
+📂 src
+    📂 componentes
+        📂 Nombre del componente
+            📄 estilos.css
+            📄 componente.jsx
+            📂 sub-componentes
+                📄 estilos.css
+                📄 sub-componente.jsx
