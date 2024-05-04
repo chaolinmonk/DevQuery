@@ -13,5 +13,8 @@ export async function run(message) {
   //return result.text; 
   const response = await result.response;
   const text = response.text();
+  for(let i = 0; i<text.length;i++){
+    console.log(text[i])
+  }
   return (text);
 }
