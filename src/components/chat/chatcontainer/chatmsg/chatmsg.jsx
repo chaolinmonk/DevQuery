@@ -11,5 +11,6 @@ export default function ChatMsg(props){
             </p>
             <div className="date_msg">{props.Time}</div>
         </div>
+        
     )
 }
