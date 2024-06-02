@@ -5,8 +5,10 @@
     bottom: 0px;
     left: 50px;
     overflow: auto;
-    background: radial-gradient(circle, rgb(34, 18, 78) 0%, rgb(31, 23, 42) 100%);  
+    background: rgb(234, 236, 240);
     resize: horizontal;  
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
 }
 #chatAi::-webkit-scrollbar-thumb{
     background: #1f172a;
