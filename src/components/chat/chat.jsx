@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 import "./chat.css";
-import ChatInput from './Input/input';
-import ChatContainer from './chatcontainer/chatcontainer';
+import ChatInput from './Input/input.jsx';
+import ChatContainer from './chatcontainer/chatcontainer.jsx';
 import {run} from '../../servicios/openai.js';
 //import chat_input from './Input/input'
 export default function Chat(){
@@ -23,6 +23,7 @@ export default function Chat(){
     }
     return(
         <div id="chatAi">
+            <div id="top_border"></div>
             <div id="chatContent">
                 {chatMessages.map((message, index) => (
                     <ChatContainer key={index} MsgContent={message.content} user={message.user} Time={message.Time}/>

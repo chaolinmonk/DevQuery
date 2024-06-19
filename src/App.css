@@ -1,5 +1,12 @@
 .App{
-    background-color: aqua;
-    height: 300vh;
+    display: flex;
+    background-color: rgb(226, 226, 226);
+    height: 100%;
     width: 100%;
+    justify-content: center;
+    align-items: center;
+}
+.App h1{
+    font-size: 2rem;
+    color: #99899f;
 }
