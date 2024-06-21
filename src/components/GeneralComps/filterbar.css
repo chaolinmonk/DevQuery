@@ -1,6 +1,6 @@
 .filterbar{
-    width: 100%;
+    width: 16vw;
     height: 100vh;
     background-color:azure;
-    border-left: solid 2px #929292;
+    border-left: solid 1px #929292;
 }

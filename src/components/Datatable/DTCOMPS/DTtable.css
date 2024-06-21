@@ -1,0 +1,10 @@
+.DTtable{
+    display: flex;
+    width: 76vw;
+    height: 100%;
+    background-color: azure;
+    border-top: solid 1px #929292;
+    gap: 0px;
+    overflow: scroll;
+    border: red solid 1px;
+}

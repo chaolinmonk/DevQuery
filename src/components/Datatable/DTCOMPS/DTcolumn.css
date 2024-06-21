@@ -1,0 +1,6 @@
+.DTcolumn{
+    width:auto;
+    height: fit-content;
+    background-color: aqua;
+    border-right: solid 1px #545445;
+}

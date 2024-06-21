@@ -1,17 +1,22 @@
 .Datatable{
-    width: 100%;
+    display: flex;
+    flex-direction: column;
+    grid-template-rows: 100px 1fr;
+    grid-template-rows: 1fr;
+    width: 79vw;
     height: 100%;
-    background-color: aquamarine;
-    border-left: solid 2px #929292;
-}
+    background-color: azure;
+    border-left: solid 1px #929292;
+    overflow: hidden;
+}   
 .header{
     display: flex;
     align-items: center;
-    width: 100%;
+    width: 79vw;
     height: 100px;
     background-color: azure;
     padding-left: 2%;
-    border-bottom: solid 2px #929292;
+    
 }
 
 .header p{

@@ -1,14 +1,13 @@
 import React from 'react'
 import "./Datatable.css"
-export default function Datatable() {
+import DTtable from './DTCOMPS/DTtable'
+export default function Datatable(props) {
   return (
     <div className='Datatable'>
         <div className="header">
-            <p>Tickets</p>
+            <p>{props.DTname}</p>
         </div>
-        <tbody>
-
-        </tbody> 
+        <DTtable/>
     </div>
   )
 }
