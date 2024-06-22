@@ -2,7 +2,7 @@ import React ,{useState}from "react";
 import "./input.css"
 
 export default function ChatInput(props){
-    const [message, setMessage] = useState("hola mundsfsdfdo");
+    const [message, setMessage] = useState("Envía un mensaje.");
     console.log(message)
     function handleChange(event) {
         setMessage(event.target.value);

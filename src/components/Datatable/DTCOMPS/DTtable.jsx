@@ -7,23 +7,6 @@ export default function DTtable() {
       <DTcolumn></DTcolumn>
       <DTcolumn></DTcolumn>
       <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      <DTcolumn></DTcolumn>
-      
-      
     </div>
   )
 }

@@ -4,7 +4,7 @@ export default function DTrow() {
   return (
     <div className='Dtrow'>
       <p>
-        colocolo vs u de chile asdasdasd de chile asdasdasd 
+        x
       </p>
     </div>
   )
