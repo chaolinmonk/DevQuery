@@ -1,0 +1,35 @@
+#userview{
+    display: flex;
+    justify-content: center;
+    width: 95vw;
+    height: 100%;
+}
+#usercard{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    width: 40vw;
+    height: 100%;
+}
+#userpfp{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    overflow: hidden;
+    border: 3px solid #355;
+}
+#username{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 3rem;
+}
+#username p{
+    margin: 10px;
+}
+#userpuesto{
+    color: salmon;
+}
+

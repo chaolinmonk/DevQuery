@@ -1,18 +1,49 @@
 .Dtrow{
     display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
+    justify-content: start;
     align-items: center;
     width: fit-content;
-    max-width: 300px;
-    height: fit-content;
-    border-bottom: solid 1px #e8e8e8;
-    background-color: azure;
-    gap: 10px;
-    padding: 10px;
+    height: 80px;
+    max-height: 40px;
+    transition: background-color 4s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    z-index: 8;
+}
+.Dtrow:hover{
+    background-color:  rgb(200, 245, 239);
 }
 .Dtrow p{
     width: max-content;
     line-height: 1.2rem;
-    margin: 0;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.Dtrow a{
+    color: rgb(47, 157, 165);
+}
+.Dtrow-header{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: fit-content;
+    background-color: rgb(255, 219, 164);
+    height: 120px;
+    max-height: 80px;
+    transition: background-color 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+.Dtrow-header *{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    background: rgb(106,200,169);
+    background: linear-gradient(0deg, rgb(190, 236, 221) 0%, rgb(106, 200, 195) 1%, rgba(124,255,211,1) 98%);
+    font-weight: 600;
+}
+.Dtrow *{
+    display: flex;
+    justify-content:center;
+    align-items: center;
+    font-weight: 600;
 }

@@ -1,9 +1,13 @@
 .DTtable{
     display: flex;
+    flex-direction: column;
     width: 76vw;
     height: 100%;
-    background-color: azure;
+    background-color: rgb(251, 251, 251);
     border-top: solid 1px #929292;
-    gap: 0px;
     overflow: scroll;
+    gap: 2px;
+    position: relative;
+    z-index: 7;
+
 }

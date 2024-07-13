@@ -1,21 +1,12 @@
 import React, { useState } from 'react';
-
-export default function Button({ w = "fit-content", h = 30, cancel = false, text = "Button" }) {
-  const [clicked, setClicked] = useState(false)
-  const handleClick = () =>{
-    setClicked(!clicked)
+import "./button.css"
+export default function Button({ w = "fit-content", h = 30, cancel = false, text = "Button" , func , bgc = "rgb(247, 148, 103)"}) {
+  const stle={
+    backgroundColor : `${bgc}`
   }
-  const btnstyle = {
-    width: `${w}px`,
-    height: `${h}px`,
-    backgroundColor: cancel ? '#92b58a' : '#7eeda1',
-    margin: '10px',
-    border: '0px',
-    borderRadius:'5px' 
-  };
 
   return (
-    <button type="button" style={btnstyle} onClick={handleClick}>
+    <button className='gbutton' type="button" onClick={func}>
       {text}
     </button>
   );

@@ -1,0 +1,17 @@
+.gbutton{
+    height: fit-content;
+    padding-right: 30px;
+    padding-left: 30px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    border-radius: 8px;
+    border: 2px solid #dfdfdf;
+    background: rgb(213,128,20);
+    background: linear-gradient(0deg, rgb(236, 153, 105) 0%, rgba(255,232,103,1) 100%);
+}
+.gbutton:hover{
+    border: 1px solid #999;
+    background-color: rgb(247, 148, 103);
+    color: white;
+    cursor: pointer;
+}

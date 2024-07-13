@@ -3,7 +3,6 @@
     position: fixed;
     grid-template-rows: 30px 1fr 9%;
     width: 50vw;
-    height: 500px;
     bottom: 0px;
     left: 120px;
     overflow: auto;
@@ -11,6 +10,7 @@
     resize: horizontal;  
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
+    z-index: 10;
 }
 #chatAi::-webkit-scrollbar-thumb{
     background: #1f172a;

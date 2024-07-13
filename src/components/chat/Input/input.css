@@ -28,6 +28,7 @@
 #Ai_sendmsg svg path:hover{
     width: auto;
     height: 80%;
+    cursor: pointer;
     fill: rgb(176, 247, 223);
     stroke: rgb(0, 197, 187);
 }

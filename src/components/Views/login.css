@@ -1,0 +1,7 @@
+.Loginform_container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 95vw;
+    height: 100%;
+}

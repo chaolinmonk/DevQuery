@@ -1,17 +1,148 @@
-.navbar{
+.navbar {
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    align-items: start;
+    padding-top: 30px;
+    width: 5vw;
+    height: 100%;
+    background-color: white;
+    transition: 1s cubic-bezier(0.075, 0.82, 0.165, 1);
+    position: relative;
+    z-index: 5;
+    box-shadow: 12px 0px 34px -11px rgba(179,133,230,0.5);
+    gap: 20px;
+}
+.navbar * *{
+    text-decoration: none;
+    color: black;
+}
+.MenuToggle{
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+}
+.navbar .MenuToggle .profile_picture{
+    display: none;
+}
+.navbar .MenuToggle .profile_picture .profile{
+    display: none;
+}
+.navbar .MenuToggle p{
+    display: none;
+}
+.navbar.expanded .MenuToggle{
+    justify-content: space-evenly;
+}
+.navbar.expanded{
+    z-index: 5;
+    width: 400px;  
+}
+.navbar.expanded .MenuToggle p{
+    display: block;
+}
+.navbar.expanded .MenuToggle .profile .profile_picture{
+    display: block;
+    height: 40px;
+    width: 40px;
+}
+.navbar.expanded .MenuToggle .profile {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 8px;
+    padding: 10px;
+    border-radius: 10px;
+    border: solid 1px white;
+    cursor: pointer;
+}
+.navbar.expanded .MenuToggle .profile:hover{
+    border-radius: 10px;
+    border: solid 1px rgba(255, 39, 39, 0.521);
+    background-color: rgba(255, 39, 39, 0.051);
+}
+.navbar.expanded .MenuToggle .profile .profile_details p{
+    margin: 0px;
+    font-size: .9rem;
+}
+.navbar.expanded .MenuToggle .profile .profile_details .userName{
+    color: rgba(255, 39, 39, 0.521);
+    font-weight: bolder;
+    font-size: 1.1rem;
+
+}
+.navbar.expanded .MenuToggle .profile .profile_picture svg{
+    height: 100%;
+    width: auto;
+}
+.hamMenu{
     display: flex;
     justify-content: center;
     align-items: center;
-    width: 5vw;
-    height: 100%;
-    background-color: azure;
-    
+    width: 50px;
+    height: 50px;
+    background-color: white;
+    border-radius: 10px;
+    border: 1px solid #f1f1f1;
+    cursor: pointer;
 }
-.nb_options{
-    display: grid;
-    grid-template-rows: repeat(auto-fill,100px);
+.hamMenu:hover{
+    
+    background: rgb(255,255,255);
+    background: radial-gradient(circle, rgba(255,255,255,1) 40%, rgb(238, 237, 237) 80%);
+}
+.navbar .nb_options{
+    display: none;
+
+}
+.navbar.expanded .nb_options{
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    height: fit-content;
+}
+.Useroption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: rgb(255,255,255);
+    transition: 2s cubic-bezier(0.075, 0.82, 0.165, 1);
+    cursor: pointer;
+}
+.uoContent{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    height: 60px;
     width: 100%;
     gap: 10px;
-    height: fit-content;
-    background-color: azure;
+    padding-left: 40px;
+}
+.uoContent .uoName {
+    transition: .6s cubic-bezier(0.075, 0.82, 0.165, 1);
+
+}
+.uoContent .uoName p{
+    margin: 0px;
+} 
+.Useroption svg{
+    height: 40px;
+    width: 40px;
+}
+.Useroption .bborder{
+    height: 1px;
+    width: 80%;
+    background: rgb(154,154,154);
+    background: radial-gradient(circle, rgba(221, 140, 140, 0.421) 0%, rgba(255,255,255,1) 100%);
+
+}
+.Useroption:hover{
+    background-color: #f1f1f1;
+}
+
+.Useroption:hover .uoContent .uoName{
+    margin-left: 10px;
 }
